@@ -2,15 +2,10 @@
 
 A new Flutter project.
 
-## Getting Started
+## How it works
+1. Set up mapbox for both iOs and android.
+2. makes an HTTP GET request to the OpenSky API
+3. extracts the longitude and latitude from the API response and updates the state, periodically.
+4. Mark eack lat-long in mapbox using Point annotation manager.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
